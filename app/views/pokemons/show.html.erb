@@ -12,3 +12,7 @@
     <%= @pokemon.Generation %>
     <%= @pokemon.Legendary %>
 </h5>
+
+<%= link_to 'back', pokemons_path %>
+<%= link_to 'edit pokemon', edit_pokemon_path(@pokemon) %>
+<%= link_to 'delete pokemon', pokemon_path(@pokemon), method: :delete, data: { confirm: 'Are you sure?'} %>

@@ -1,7 +1,8 @@
 <h1>All pokemons</h1>
+<%= link_to 'Create a new pokemon', new_pokemon_path %>
 <% @pokemons.each do |pokemon| %>
     <h5>
-        <%= pokemon.Name %>
+        <%= link_to pokemon.Name, pokemon_path(pokemon) %>
         <%= pokemon.Type_1 %>
         <%= pokemon.Type_2 %>
         <%= pokemon.Total %>
