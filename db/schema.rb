@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_07_181616) do
+ActiveRecord::Schema.define(version: 2020_09_07_193937) do
 
   create_table "pokemons", force: :cascade do |t|
     t.string "Name"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_09_07_181616) do
     t.integer "Sp_Def"
     t.integer "Speed"
     t.integer "Generation"
-    t.boolean "Legendary"
+    t.string "Legendary"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
