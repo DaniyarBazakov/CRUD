@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_07_193937) do
+ActiveRecord::Schema.define(version: 2020_09_08_005254) do
 
   create_table "pokemons", force: :cascade do |t|
     t.string "Name"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2020_09_07_193937) do
     t.integer "Total"
     t.integer "HP"
     t.integer "Attack"
-    t.integer "Defence"
+    t.integer "Defense"
     t.integer "Sp_Atk"
     t.integer "Sp_Def"
     t.integer "Speed"

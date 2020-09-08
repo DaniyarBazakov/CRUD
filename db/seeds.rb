@@ -15,7 +15,7 @@ CSV.foreach(Rails.root.join('lib/seed_csv/pokemon.csv'), headers: true) do |row|
     Total: row["Total"],
     HP: row["HP"],
     Attack: row["Attack"],
-    Defence: row["Defence"],
+    Defense: row["Defense"],
     Sp_Atk: row["Sp. Atk"],
     Sp_Def: row["Sp. Def"],
     Speed: row["Speed"],
